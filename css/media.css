@@ -1,0 +1,54 @@
+@media (min-width: 576px) {
+    .finddiv{
+        width: 100%;
+    }
+
+   
+
+}
+
+
+
+
+@media (min-width: 768px) {
+    .finddiv{
+        width: 100%;
+    }
+    .nav-item{
+        width: 100px;   
+       }
+       .live {
+        width: 120px;
+    }
+
+}
+
+
+@media (min-width: 992px) {
+    .finddiv{
+        width: 75%;
+    }
+
+    .nav-item{
+     width: 100px;   
+    }
+    .live {
+        width: 120px;
+    }
+
+
+}
+
+
+@media (min-width: 1200px) {
+    .finddiv{
+        width: 75%;
+    }
+}
+
+
+@media (min-width: 1400px) {
+    .finddiv{
+        width: 75%;
+    }
+}

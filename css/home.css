@@ -1,0 +1,269 @@
+:root {
+    --maincolor: #1e202b;
+    --secondcolor: #009ad8;
+    --therdcolor: #323544;
+    --graycolor: #bfc1bf;
+}
+
+body {
+    background-color: var(--maincolor);
+}
+
+.container {
+    width: 75%;
+}
+
+.bg-body-tertiary {
+    background-color: var(--maincolor) !important;
+
+}
+
+.nav-link {
+    color: aliceblue;
+}
+
+.navbar-nav .nav-link.active {
+    color: aliceblue;
+
+
+
+}
+
+.navbar-nav .nav-link.active:hover {
+    color: var(--secondcolor);
+}
+
+.homeli {
+    border: none;
+    border-radius: 30px;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.1s;
+
+}
+
+.homeli:hover {
+    border: solid 2px var(--secondcolor);
+    color: var(--secondcolor);
+}
+
+
+
+.nav-item {
+    border: none;
+    border-radius: 30px;
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.1s;
+}
+
+.nav-item:hover {
+    border: solid 2px var(--secondcolor);
+
+}
+
+.nav-link:hover {
+
+    color: var(--secondcolor);
+}
+
+.live {
+    width: 100%;
+}
+
+
+.headp {
+    font-size: 10px;
+    color: var(--graycolor);
+}
+
+.logo {
+    width: 30%;
+    object-fit: contain;
+}
+
+
+
+.bgimg {
+    height: 50vh;
+    background-image: url(../imgs/banner.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+#inputSerach {
+    background-color: var(--maincolor);
+    color: white;
+
+}
+
+
+
+#inputSerach:focus {
+    outline: none;
+}
+
+#inputSerach::placeholder {
+    color: gray;
+}
+
+.findbtn {
+    color: white;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: var(--secondcolor);
+    position: absolute;
+    right: 0;
+
+}
+
+.row {
+    color: var(--graycolor);
+}
+
+.degree {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+
+.div1 {
+    background-color: var(--therdcolor);
+
+}
+
+
+.headdegree1 {
+    background-color: #2d303d;
+}
+
+.div2 {
+    background-color: #262936;
+}
+
+.divheghit {
+    height: 400px;
+}
+
+
+.foot {
+    background-color: #262936;
+}
+
+.footinput {
+    background-color: var(--maincolor);
+    color: white;
+    border: none;
+
+}
+
+
+.footinput:focus {
+    outline: none;
+}
+
+.footinput::placeholder {
+    color: gray;
+}
+
+.icon {
+    padding: 18px;
+    background-color: var(--maincolor);
+    color: var(--secondcolor);
+    border-radius: 50%;
+    transition: 0.2s;
+    cursor: pointer;
+
+}
+
+.icon:hover {
+    background-color: var(--secondcolor);
+    color: white;
+}
+
+.contactinput {
+    background-color: #262936;
+    outline: none;
+    border: none;
+}
+
+.contactinput:focus {
+    outline: none;
+    border: none;
+    background-color: #262936;
+    box-shadow: 0 0 0 0;
+}
+
+
+.contactinput2 {
+    background-color: var(--maincolor);
+    color: white;
+    box-shadow: 0 0 0 0;
+    padding: 12px;
+    outline: 1px solid var(--therdcolor);
+}
+
+.contactinput2:focus {
+    background-color: var(--maincolor);
+    color: white;
+    box-shadow: 0 0 0 0;
+    outline: 1px solid var(--secondcolor);
+
+}
+
+.contactinput2:hover {
+    outline: 1px solid var(--secondcolor);
+}
+
+.homeanc {
+    text-decoration: none;
+}
+
+.homeanc:hover {
+    text-decoration: underline;
+}
+
+
+.bgdiv {
+    background-color: #262936;
+    height: max-content;
+}
+
+
+.textarea {
+    height: 180px;
+}
+
+
+
+.finddiv{
+    width: 100%;
+}
+
+
+
+.submitbtn{
+    width: max-content;
+}
+
+.toogle{
+    color: white;
+}
+
+.navbar-toggler:hover{
+    border: 2px solid var(--secondcolor);
+    
+}
