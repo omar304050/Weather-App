@@ -18,7 +18,7 @@ getData("Cairo");
 
 async function getData(city) {
     try {
-        let myHttp = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=49a0f320b7c54514ae4132421241312&q=${city}&days=3`);
+        let myHttp = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=49a0f320b7c54514ae4132421241312&q=${city}&days=3`);
         let data = await myHttp.json();
 
         let locationName = data.location.name;
