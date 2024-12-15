@@ -56,7 +56,7 @@ body {
 .nav-item {
     border: none;
     border-radius: 30px;
-    width: 100%;
+    width: 100px;
     height: 25px;
     text-align: center;
     display: flex;
@@ -76,7 +76,7 @@ body {
 }
 
 .live {
-    width: 100%;
+    width: 120px;
 }
 
 

@@ -14,12 +14,6 @@
     .finddiv{
         width: 100%;
     }
-    .nav-item{
-        width: 100px;   
-       }
-       .live {
-        width: 120px;
-    }
 
 }
 
@@ -32,10 +26,7 @@
     .nav-item{
      width: 100px;   
     }
-    .live {
-        width: 120px;
-    }
-
+  
 
 }
 
