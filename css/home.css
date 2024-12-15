@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    width: 75%;
+    width: 85%;
 }
 
 .bg-body-tertiary {
@@ -56,7 +56,7 @@ body {
 .nav-item {
     border: none;
     border-radius: 30px;
-    width: 100px;
+    width: 100%;
     height: 25px;
     text-align: center;
     display: flex;
@@ -76,7 +76,7 @@ body {
 }
 
 .live {
-    width: 120px;
+    width: 100%;
 }
 
 
